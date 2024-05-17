@@ -1,5 +1,5 @@
 // Replace 'YOUR_API_KEY' with your actual Google Maps API key
-const apiKey = AIzaSyDBQ2C3Jsilhs7py0W8Ox3g6OAk_dWsJgc;
+const apiKey = "AIzaSyDBQ2C3Jsilhs7py0W8Ox3g6OAk_dWsJgc";
 const placeType = 'bicycle_rental'; // Adjust as per your needs, e.g., 'bicycle_store', 'bicycle_rental', 'parking', etc.
 const universityCoords = { lat: 38.9869, lng: -76.9426 }; // University of Maryland College Park coordinates
 
