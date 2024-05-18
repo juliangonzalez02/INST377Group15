@@ -10,7 +10,7 @@ async function fetchNearbyPlaces() {
     try {
         const response = await fetch(url);
         const data = await response.json();
-        console.log(data);
+        //console.log(data);
         return data.results;
     } catch (error) {
         console.error('Error fetching nearby places:', error);
