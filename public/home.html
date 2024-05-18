@@ -28,9 +28,10 @@
 
     <div class="main-container">
       <div class="map-area">
-        <div id="map"></div>
+        <div id="map" style="height: 600px"></div>
 
         <h3>Select a location to analyze further!</h3>
+
         <!-- <script src= "nearby_bikes.js"></script>-->
       </div>
 
@@ -41,12 +42,24 @@
 
     <footer>
       <h2>Copyright 2024 INST377 Group 15</h2>
-      <a href="https://github.com/juliangonzalez02/INST377Group15" target="_blank">
+      <a
+        href="https://github.com/juliangonzalez02/INST377Group15"
+        target="_blank"
+      >
         <img
           src="https://img.icons8.com/fluent/48/000000/github.png"
           alt="Github"
         />
       </a>
     </footer>
+
+    <script>
+      var map = L.map("map").setView([38.897957, -77.03656], 9);
+      L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
+        maxZoom: 15,
+        attribution:
+          '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+      }).addTo(map);
+    </script>
   </body>
 </html>
