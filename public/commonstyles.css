@@ -9,7 +9,7 @@ nav {
   display: flex;
   align-items: center;
   color: black;
-  font-size: 16px;
+  font-size: 15px;
 }
 
 nav a {
@@ -28,27 +28,8 @@ ul li {
   font-size: 20px;
 }
 
-.main-container {
-  height: 100%;
-  width: 100%;
-}
-
-.map-area {
-  background-color: grey;
-  float: left;
-  width: 40%;
-  padding: 2%;
-  margin: 2%;
-}
-
-aside {
-  background-color: grey;
-  float: right;
-  width: 40%;
-  padding: 2%;
-  margin: 2%;
-}
-
-#map {
-  height: 500px;
+footer {
+  background-color: green;
+  text-align: center;
+  padding: 16px 20px 30px 20px;
 }
