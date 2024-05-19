@@ -56,7 +56,7 @@ app.post('/api/stations', async (req, res) => {
 
     const station = {};
     fields.forEach(field => {
-      if (req.body[field] !== undefined) {
+      if (req.body[field] !== undefined && req.body[field] !== null) {
         station[field] = req.body[field];
       }
     });
