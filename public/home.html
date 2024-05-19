@@ -35,9 +35,73 @@
       </div>
 
       <aside id="info-area">
-        <button id="collegeParkStationsButton">Fetch College Park Stations</button>
+        <button id="collegeParkStationsButton">Fetch College Park Stations</button> 
       </aside>
-    </div>
+    </div> 
+    <div class="add-station-container">
+      <h3>Add a New Station</h3>
+      <form id="addStationForm">
+          <label for="the_geom">Geometry:</label>
+          <input type="text" id="the_geom" name="the_geom">
+          
+          <label for="ID">ID:</label>
+          <input type="text" id="ID" name="ID">
+          
+          <label for="FAC_ID">Facility ID:</label>
+          <input type="text" id="FAC_ID" name="FAC_ID">
+          
+          <label for="BIKE_ID">Bike ID:</label>
+          <input type="text" id="BIKE_ID" name="BIKE_ID">
+          
+          <label for="SYSTEM_ID">System ID:</label>
+          <input type="text" id="SYSTEM_ID" name="SYSTEM_ID">
+          
+          <label for="SYSTEM_NAME">System Name:</label>
+          <input type="text" id="SYSTEM_NAME" name="SYSTEM_NAME">
+          
+          <label for="YEAR">Year:</label>
+          <input type="text" id="YEAR" name="YEAR">
+          
+          <label for="ASOFDATE">As of Date:</label>
+          <input type="date" id="ASOFDATE" name="ASOFDATE">
+          
+          <label for="FAC_NAME">Facility Name:</label>
+          <input type="text" id="FAC_NAME" name="FAC_NAME">
+          
+          <label for="ADDRESS">Address:</label>
+          <input type="text" id="ADDRESS" name="ADDRESS">
+          
+          <label for="CITY">City:</label>
+          <input type="text" id="CITY" name="CITY">
+          
+          <label for="STATE">State:</label>
+          <input type="text" id="STATE" name="STATE">
+          
+          <label for="ZIPCODE">Zipcode:</label>
+          <input type="text" id="ZIPCODE" name="ZIPCODE">
+          
+          <label for="CBSA_CODE">CBSA Code:</label>
+          <input type="text" id="CBSA_CODE" name="CBSA_CODE">
+          
+          <label for="LONGITUDE">Longitude:</label>
+          <input type="text" id="LONGITUDE" name="LONGITUDE">
+          
+          <label for="LATITUDE">Latitude:</label>
+          <input type="text" id="LATITUDE" name="LATITUDE">
+          
+          <label for="STATION_TYPE">Station Type:</label>
+          <input type="text" id="STATION_TYPE" name="STATION_TYPE">
+          
+          <label for="launchDate">Launch Date:</label>
+          <input type="date" id="launchDate" name="launchDate">
+          
+          <label for="endDate">End Date:</label>
+          <input type="date" id="endDate" name="endDate">
+          
+          <button type="submit">Add Station</button>
+      </form>
+      <div id="addStationResult"></div>
+  </div>
 
     <footer>
       <h2>Copyright 2024 INST377 Group 15</h2>
