@@ -42,4 +42,25 @@ async function main() {
 }
 
 // Execute main function
-main();
+main(); 
+
+document.addEventListener('DOMContentLoaded', () => {
+    const collegeParkStationsButton = document.getElementById('collegeParkStationsButton');
+    const infoArea = document.getElementById('info-area');
+  
+    collegeParkStationsButton.addEventListener('click', async () => {
+      try {
+        const response = await fetch('http://localhost:3001/api/college-park-stations');
+        if (!response.ok) {
+          throw new Error('Network response was not ok');
+        }
+        const data = await response.json();
+        infoArea.innerHTML = `<h3>Number of Stations in College Park: ${data.count}</h3>`;
+      } catch (error) {
+        console.error('Error fetching College Park stations:', error);
+        infoArea.innerHTML = '<h3>Error fetching data. Please try again later.</h3>';
+      }
+    });
+  });
+  
+  

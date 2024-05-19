@@ -4,15 +4,19 @@
     "description": "Website for Group 15 project",
     "main": "index.js",
     "scripts": {
-      "start": "nodemon -e '*'"
+        "start": "nodemon -e '*'"
     },
     "author": "Group 15",
     "license": "ISC",
     "dependencies": {
-      "@supabase/supabase-js": "^2.42.7",
-      "body-parser": "^1.20.2",
-      "express": "^4.19.2",
-      "nodemon": "^3.1.0",
-      "usa-state-validator": "^1.0.6"
+        "@supabase/supabase-js": "^2.43.2",
+        "axios": "^1.6.8",
+        "body-parser": "^1.20.2",
+        "cors": "^2.8.5",
+        "csvtojson": "^2.0.10",
+        "dotenv": "^16.4.5",
+        "express": "^4.19.2",
+        "nodemon": "^3.1.0",
+        "usa-state-validator": "^1.0.6"
     }
-  }
+}
