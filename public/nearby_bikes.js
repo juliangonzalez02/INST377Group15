@@ -1,4 +1,3 @@
-// Replace 'YOUR_API_KEY' with your actual Google Maps API key
 const apiKey = "AIzaSyDBQ2C3Jsilhs7py0W8Ox3g6OAk_dWsJgc";
 const placeType = 'bicycle_rental'; // Adjust as per your needs, e.g., 'bicycle_store', 'bicycle_rental', 'parking', etc.
 const universityCoords = { lat: 38.9869, lng: -76.9426 }; // University of Maryland College Park coordinates
@@ -43,6 +42,7 @@ async function main() {
 // Execute main function
 main();
 
+//DOM Content for Fetching current stations database
 document.addEventListener('DOMContentLoaded', () => {
     const collegeParkStationsButton = document.getElementById('collegeParkStationsButton');
     const infoArea = document.getElementById('info-area');
@@ -83,9 +83,10 @@ document.addEventListener('DOMContentLoaded', () => {
           }
       });
   
+//DOM Content for Adding new stations to database
       addStationForm.addEventListener('submit', async (event) => {
           event.preventDefault();
-          const formData = new FormData(addStationForm);
+          const formData = document.querySelector(addStationForm);
           const stationData = {};
           formData.forEach((value, key) => {
               stationData[key] = value;
