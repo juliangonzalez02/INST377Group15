@@ -1,15 +1,4 @@
-README
-# INST377 Group 15 - Sharebike and e-scooter stations in the College Park area
-
-Description: This project is intended for displaying the different sharebike and e-scooter stations available around College Park. Utilizes various API calls to facilitate this intended purpose. 
-Target Browsers: Our application is targeted for desktop users using Chrome, Edge, or Firefox.
-Developer Manual Link (This document): 
-
-https://github.com/juliangonzalez02/INST377Group15/blob/main/README.md
-
-
-
-Developer Manual:
+# Developer Manual:
 This application leverages the Google Maps API, Supabase, and nodeJS.
 
 ===============
@@ -44,6 +33,3 @@ A way to remove a sharebike/e-scooter station entry from the existing database s
 
 SUPABASE_URL=https://bnrppscgxzwwfrctdjkz.supabase.co
 SUPABASE_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImJucnBwc2NneHp3d2ZyY3Rkamt6Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3MTYwNzYxMTQsImV4cCI6MjAzMTY1MjExNH0.hxwEw-lT6a68SggGME-_uUPwu8IajiJJJf95Cf0Uxs8
-
-
-
