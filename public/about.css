@@ -24,3 +24,22 @@
 #about {
   height: 300px;
 }
+
+.slider {
+  width: 100%;
+  padding-bottom: 60%;
+}
+.slider img {
+  width: 90%;
+  height: 90%;
+}
+.wrapper {
+  width: 100%;
+  margin: 0;
+}
+@media only screen and (min-width: 1024px) {
+  .wrapper {
+    width: 1024px;
+    margin: auto;
+  }
+}
